@@ -19,4 +19,6 @@ object HelloAkka extends App {
 
   // Send message to Actor
   greeter ! "Akka"
+
+  system.terminate()
 }
